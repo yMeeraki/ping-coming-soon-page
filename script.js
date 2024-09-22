@@ -16,6 +16,7 @@ function notifyMe(){
         else{
             errorMessage.style.display = 'none'; 
             email.style.border = '1px solid hsl(223, 100%, 88%)'
+            email.value="";
             alert("Thank you! You will be notified.");
         }
     }
