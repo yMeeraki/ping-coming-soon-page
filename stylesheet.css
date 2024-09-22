@@ -1,0 +1,160 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 20px;
+
+    min-height: 150svh;
+}
+
+div{ 
+    
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+
+/*Styling of Card*/
+.card{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+
+    color:  hsl(0, 0%, 59%);
+}
+
+/*Styling of Heading*/
+.heading h1{
+    font-weight: 300;
+}
+
+.heading h1 i{
+    color:hsl(209, 33%, 12%);
+    font-style: normal;
+    font-weight: 700;
+}
+
+/*Styling of input*/
+input{
+    border-radius: 20px;
+    width: 25rem;
+    padding: 10px;
+
+    border: 1px solid hsl(223, 100%, 88%);
+}
+
+input[type="email"]:active{
+    border: 1px solid hsl(223, 100%, 88%);
+}
+
+.subscribe-email{
+    flex-direction: row;
+}
+
+/*Styling of notify-me button*/
+.notify-me{
+    background-color: hsl(223, 87%, 63%);
+    color: hsl(0, 0%, 100%);
+
+    padding: 10px;
+
+    border-radius: 20px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    border: none;
+}
+
+.notify-me:hover{
+    background-color: hsl(209, 33%, 12%);
+
+    box-shadow: 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*Styling of icon*/
+.icon-img{
+    flex-direction: row;
+
+}
+
+.icon-img i{
+    color:  hsl(223, 87%, 63%);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+
+    font-size: 14px;
+}
+
+.icon-img i:hover{
+    color:hsl(209, 33%, 12%);
+}
+
+
+/*--------------------------------------*/
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  
+  /*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /*
+    5. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+
+    max-width:60%;
+
+  }
+  
+  /*
+    6. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /*
+    7. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /*
+    8. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
