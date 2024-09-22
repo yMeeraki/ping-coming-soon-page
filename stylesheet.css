@@ -78,7 +78,7 @@ input{
 
     border: none;
 
- 
+    cursor: pointer;
 }
 
 .notify-me:hover{
@@ -86,7 +86,7 @@ input{
 
     box-shadow: 0 17px 50px 0 rgba(0,0,0,0.19);
 
-    cursor: pointer;
+    
 }
 
 /*Styling of icon*/
